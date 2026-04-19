@@ -89,9 +89,10 @@ header, section, footer {
     padding: 1rem;
     position: sticky;
     top: 0;
-    background: var(--card);
+    background: black;
     flex-wrap: wrap; /* ✅ allow wrapping */
     align-items: center;
+    color: var(--text);
 }
 
 @media (max-width: 600px) {
